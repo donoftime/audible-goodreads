@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "audible-goodreads"
+version = "0.0.1"
+description = "Convenience tool for syncing audible library with goodreads"
+authors = ["Don Mayo <donoftime00@gmail.com>"]
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+audible-cli = "^0.1.0"
+isbntools = "^4.3.28"
+pandas = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
