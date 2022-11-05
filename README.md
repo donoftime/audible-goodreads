@@ -1,3 +1,6 @@
+> :warning: You might want to check out the new cmd in audible-cli which does essentially the same as I what I have here instead:
+https://github.com/mkb79/audible-cli/blob/master/plugin_cmds/cmd_goodreads-transform.py
+
 # Audible -> Goodreads sync
 
 This is a simple project to export your audible library information and format it in a way that may be imported into goodreads.
